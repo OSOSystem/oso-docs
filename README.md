@@ -1,2 +1,3 @@
-# Welcome to the documentation of the OSO-System
+# OSO Documentation
 
+Contains the documentation and wiki of the oso project.
