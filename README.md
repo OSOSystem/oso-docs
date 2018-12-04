@@ -8,7 +8,7 @@ The currently supported devices are listed below
 * [Smartphone (Android/iOS)](#smartphone-androidios)
 * [Flic Button](#flic-button)
 * [ReachFar Tracker RF-V18](#reachfar-tracker-rf-v18)
-* [NanoTracker](#nanotracker)
+* [NanoTracker](#nano-tracker)
 
 We aim to incorporate more devices as the development goes further.
 If you have an idea on which device we should look into next, just write us.
@@ -55,13 +55,13 @@ The protocol for configuring a Reachfar Tracker with our provided Server/System 
 > --&gt; Tracker: surl,app.ososystem.de,port,9999#<br>
 > &lt;-- Tracker: surl:app.ososystem.de;port:9999.;OK!
 
-
->For more information about the ReachFar Tracker or the SMS-configuration visit<br>
+For more information about the ReachFar Tracker or the SMS-configuration visit<br>
 http://www.reachfargps.com/products/RF-V18.html<br>
 https://www.my-gps.org/145-Reachfar-RFV16-SMS-configuration-Manual<br>
 https://www.my-gps.org/146-Reachfar-RFV16-SMS-configuration
 
 ### NanoTacker
 >Documentation is following soon.
-For more information about the NanoTracker visit
+
+For more information about the NanoTracker visit<br>
 https://www.roundsolutions.com/de/10630-nanotracker-world-s-smallest-gps-und-gprs-tracking-device
