@@ -60,7 +60,7 @@ http://www.reachfargps.com/products/RF-V18.html<br>
 https://www.my-gps.org/145-Reachfar-RFV16-SMS-configuration-Manual<br>
 https://www.my-gps.org/146-Reachfar-RFV16-SMS-configuration
 
-### NanoTacker
+### NanoTracker
 >Documentation is following soon.
 
 For more information about the NanoTracker visit<br>
