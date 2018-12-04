@@ -8,7 +8,7 @@ The currently supported devices are listed below
 * [Smartphone (Android/iOS)](#smartphone-androidios)
 * [Flic Button](#flic-button)
 * [ReachFar Tracker RF-V18](#reachfar-tracker-rf-v18)
-* [NanoTracker](#nano-tracker)
+* [NanoTracker](#nanotracker)
 
 We aim to incorporate more devices as the development goes further.
 If you have an idea on which device we should look into next, just write us.
