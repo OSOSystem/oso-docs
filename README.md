@@ -37,23 +37,25 @@ Mobile data needs to be enabled in order to send out emergencies.
 Afterwards the Tracker only needs to know how to connect to our server. This will be done via SMS-configuration.<br>
 All configration-SMS have the format <Param>,<Param>,...#. It is mandatory to use only lower-case letters and to not add any whitespace or other character whatsoever. A message is only valid, if the Tracker sends a confirmation-SMS back. This can take up to 5 Minutes. If no confirmation is received the SMS was invalid and ignored.
    
-First a master needs to be assigned via the message
->&lt;password&gt;,sos1#<br>
+First a master needs to be assigned via the message<br>
+``<password>,sos1#``
 
 where the &lt;password&gt; is the devices password (by default '123456')<br>
 and the number from which the message has been sent will be configured to be the master number. This is the only message that can be sent by any number - all further configurations need to be sent by this master number.
 
-Afterwards the server will be announced to the Tracker via
->surl,&lt;url&gt;,port,&lt;port&gt;#<br>
+Afterwards the server will be announced to the Tracker via<br>
+``surl,<url>,port,<port>#``
 
 where &lt;url&gt; is the url to the server<br>
 and &lt;port&gt; is the port to connect to
 
 The protocol for configuring a Reachfar Tracker with our provided Server/System would be
-> --&gt; Tracker: 123456,sos1#<br>
-> &lt;-- Tracker: &lt;number&gt; has been set for master number successfully.<br>
-> --&gt; Tracker: surl,app.ososystem.de,port,9999#<br>
-> &lt;-- Tracker: surl:app.ososystem.de;port:9999.;OK!
+```
+--> Tracker: 123456,sos1#
+<-- Tracker: <number> has been set for master number successfully.
+--> Tracker: surl,app.ososystem.de,port,9999#
+<-- Tracker: surl:app.ososystem.de;port:9999.;OK!
+```
 
 For more information about the ReachFar Tracker or the SMS-configuration visit<br>
 http://www.reachfargps.com/products/RF-V18.html<br>
