@@ -67,3 +67,10 @@ https://www.my-gps.org/146-Reachfar-RFV16-SMS-configuration
 
 For more information about the NanoTracker visit<br>
 https://www.roundsolutions.com/de/10630-nanotracker-world-s-smallest-gps-und-gprs-tracking-device
+
+## Roadmap
+We are trying to build a platform where people in need have a tool to communicate effortlessly about needing help. We encourage people to work with us so we can provide the best possible experience. There is a lot more to come in the future. To name a few examples
+
+* Host service which can be used by everyone
+* Support more devices
+* Add quick responses for help-providers
