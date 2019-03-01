@@ -15,6 +15,8 @@ Use your best judgement and if you have any suggestions about this document plea
     * [Git commit messages](#git-commit-messages)
 * [Stay in touch](#stay-in-touch)
 
+If you seek further information check out our [Wiki](https://github.com/OSOSystem/oso-docs/wiki).
+
 ## Code of conduct
 This project and everyone participating in it should obey to the [OSO Code of Conduct](CODE_OF_CONDUCT.md). 
 Please report unacceptable behavior to [contact@ososystem.de](mailto:contact@ososystem.de)
@@ -24,8 +26,13 @@ There are many ways to contribute, from writing tutorials, blog posts, improving
 submitting bug reports and feature requests or writing code which can be incorporated into the project itself.
 
 ### Code contribution
-Choose an issue you want to do. Write in the comments that you are going to take care of it.
-When you are done submit a pull request. 
+Choose an issue you want to do. Write in the comments that you are going to take care of it
+
+>**Note**: When working on an issue the issue number should be mentioned in the branch name e.g.
+``#19-a-small-description``. It is easier for us to track the changes this way.
+
+and when you are done submit a pull request. 
+
 
 ### Bug reports
 Have you seen a :bug: around here? We don't like bugs. <br>
@@ -40,13 +47,6 @@ And let's :pray: that it won't show ever again!
 ### Feature requests
 Is there a feature you wish for which does not exist? No problem, just create a feature issue.
 Write down why you think it is useful and describe how it should work.
-
-## Code review process
-When a pull request comes in, two of the maintainers have to approve it before it can be merged into the develop branch.
-If we notice an issue with a pull request, we will write it down in the comments so you can fix it 
-or discuss with us why it shouldn't be done.
-
-We will look at the pull requests on a regular basis.
 
 ## Styleguides
 ### Git commit messages
@@ -68,11 +68,18 @@ We will look at the pull requests on a regular basis.
     * :arrow_down: `:arrow_down:` when downgrading dependencies
     * :shirt: `:shirt:` when removing linter warnings
     * :heavy_plus_sign: `:heavy_plus_sign:` when adding a feature
+* Consider adding a reference to an issue number
 
-Now you ask yourself why in the heck should I consider using emojis? Fair Question!<br>
-I'll answer it with another question. Who does not like emojis? :grin:
+A commit could look like this e.g.
+``:art: #19 Add delete method in help-requester service``.
+
+## Code review process
+When a pull request comes in, two of the maintainers have to approve it before it can be merged into the develop branch.
+If we notice an issue, we will write it down in the comments so you can fix it 
+or discuss with us why we are wrong :wink:
+
+We will look at the pull requests on a regular basis.
 
 ## Stay in touch
-Phew, the annoying part is finally over. :grinning:
 If you want to get in touch with us in a more relaxed atmosphere, consider joining the discord server.<br>
 :boom:[Instant Transmission](https://discord.gg/3rBUjtm):boom:
