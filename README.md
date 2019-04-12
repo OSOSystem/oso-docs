@@ -69,8 +69,32 @@ For more information about the NanoTracker visit<br>
 https://www.roundsolutions.com/de/10630-nanotracker-world-s-smallest-gps-und-gprs-tracking-device
 
 ## Roadmap
-We are trying to build a platform where people in need have a tool to communicate effortlessly about needing help. We encourage people to work with us so we can provide the best possible experience. There is a lot more to come in the future. To name a few examples
+We are trying to build a platform where people in need have a tool to communicate effortlessly about needing help. This kind of task is not trivial to implement if we want to maintain a quality of standard. There are many things to consider.
 
-* Host service which can be used by everyone
-* Support more devices
-* Add quick responses for help-providers
+* We have to make sure that we will have a robust infrastructure which is able to handle failure
+* We have to make sure that the exchanges of messages don't get lost and are as fast as possible
+* We want to provide an open interface where we can expand our supported devices with
+And many more...
+
+Granted that we are not that many people so far and most of us are contributing to this in our freetime (when not working) we still have a goal with the OSO project in mind. And the more help we can get, the better it is going to be.
+
+### Currently development goals
+* Decomposition of the backend monolith with a microservices architecture
+* Providing an versioned infrastructure which provides a whole environment for the OSO project and can be hosted by anyone
+* Publishing a writeup of our open source journey describing how we approached so far
+
+### OSO is not the only one
+As we recently noticed there are some projects which show similarities to ours.
+Here are two for example
+* https://www.vivatar.com/
+* https://wayguard.de/
+
+This is by far no deal breaker.
+It only shows clearly that there is a need for projects in this domain.
+As we are handling with senstive data we want to provide total transparency which is only possible with an open source approach in our opinion.
+
+### Future development goals
+Here a quick writeup to outline our future goals
+* We want to host the oso project as a service which can be used by everyone (free of course)
+* Providing smartphone apps for help-providers and help-requesters (for Android and iOS)
+* Supporting more devices
