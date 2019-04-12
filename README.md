@@ -71,16 +71,17 @@ https://www.roundsolutions.com/de/10630-nanotracker-world-s-smallest-gps-und-gpr
 ## Roadmap
 We are trying to build a platform where people in need have a tool to communicate effortlessly about needing help. This kind of task is not trivial to implement if we want to maintain a quality of standard. There are many things to consider.
 
-* We have to make sure that we will have a robust infrastructure which is able to handle failure
-* We have to make sure that the exchanges of messages don't get lost and are as fast as possible
-* We want to provide an open interface where we can expand our supported devices with
-And many more...
+* We have to make sure that we will have a resilient infrastructure which is able to handle failures
+* We have to make sure that the exchange of messages is reliable and as fast as possible
+* We want to provide an open interface and not setting a limit e.g. on supporting certain devices
+
+And many more :raised_hands:
 
 Granted that we are not that many people so far and most of us are contributing to this in our freetime (when not working) we still have a goal with the OSO project in mind. And the more help we can get, the better it is going to be.
 
 ### Currently development goals
-* Decomposition of the backend monolith with a microservices architecture
-* Providing an versioned infrastructure which provides a whole environment for the OSO project and can be hosted by anyone
+* Decomposition of the backend monolith to a microservices architecture (by the principles of DDD)
+* Providing a versioned infrastructure which includes a whole environment for the OSO project and can be hosted by anyone
 * Publishing a writeup of our open source journey describing how we approached so far
 
 ### OSO is not the only one
@@ -89,12 +90,12 @@ Here are two for example
 * https://www.vivatar.com/
 * https://wayguard.de/
 
-This is by far no deal breaker.
-It only shows clearly that there is a need for projects in this domain.
-As we are handling with senstive data we want to provide total transparency which is only possible with an open source approach in our opinion.
+This is by far no deal breaker. It only shows clearly that there is a need for projects in this domain. :couple_with_heart:
+
+As we are handling senstive data we want to provide total transparency which is only possible with an open source approach.
 
 ### Future development goals
 Here a quick writeup to outline our future goals
-* We want to host the oso project as a service which can be used by everyone (free of course)
+* We want to host the OSO project as a service which can be used by everyone (free of course)
 * Providing smartphone apps for help-providers and help-requesters (for Android and iOS)
 * Supporting more devices
