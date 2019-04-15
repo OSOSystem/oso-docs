@@ -68,11 +68,13 @@ https://www.my-gps.org/146-Reachfar-RFV16-SMS-configuration
 For more information about the NanoTracker visit<br>
 https://www.roundsolutions.com/de/10630-nanotracker-world-s-smallest-gps-und-gprs-tracking-device
 
-## Roadmap
-We are trying to build a platform where people in need have a tool to communicate effortlessly about needing help. This kind of task is not trivial to implement if we want to maintain a quality of standard. There are many things to consider.
+---
 
-* We have to make sure that we will have a resilient infrastructure which is able to handle failures
-* We have to make sure that the exchange of messages is reliable and as fast as possible
+## Roadmap
+We try to build a platform where people in need have a tool to communicate effortlessly about needing help. This kind of task is not trivial to implement if we want to maintain a quality of standard. There are many things to consider.
+
+* We have to ensure that we will have a resilient infrastructure which is able to handle failures
+* We have to ensure that the exchange of messages is reliable and as fast as possible
 * We want to provide an open interface and not setting a limit e.g. on supporting certain devices
 
 And many more :raised_hands:
@@ -95,7 +97,7 @@ This is by far no deal breaker. It only shows clearly that there is a need for p
 As we are handling senstive data we want to provide total transparency which is only possible with an open source approach.
 
 ### Future development goals
-Here a quick writeup to outline our future goals
+Here is a quick writeup outlining our future goals
 * We want to host the OSO project as a service which can be used by everyone (free of course)
 * Providing smartphone apps for help-providers and help-requesters (for Android and iOS)
 * Supporting more devices
