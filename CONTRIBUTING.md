@@ -31,7 +31,7 @@ Choose an issue you want to do. Write in the comments that you are going to take
 >**Note**: When working on an issue the issue number should be mentioned in the branch name e.g.
 ``#19-a-small-description``. It is easier for us to track the changes this way.
 
-and when you are done submit a pull request. 
+try to add tests if they make sense and when you are done submit a pull request. 
 
 
 ### Bug reports
@@ -49,6 +49,10 @@ Is there a feature you wish for which does not exist? No problem, just create a 
 Write down why you think it is useful and describe how it should work.
 
 ## Styleguides
+### Code
+Try to stick to the styleguide for the different languages which we have published in our wiki
+https://github.com/OSOSystem/oso-docs/wiki/Styleguide
+
 ### Git commit messages
 * Use the present tense ("Add feature" not "Added feature").
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...").
